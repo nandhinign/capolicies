@@ -1,0 +1,55 @@
+{
+  "Conditions": {
+    "Applications": {
+      "ExcludeApplications": [ 
+        "0140a36d-95e1-4df5-918c-ca7ccd1fafc9",
+        "9cdead84-a844-4324-93f2-b2e6bb768d07",
+        "e526e72f-ffae-44a0-8dac-cf14b8bd40e2",
+        "797f4846-ba00-4fd7-ba43-dac1f8f63013",
+        "0af06dc6-e4b5-4f28-818e-e78e62d137a5",
+        "a4a365df-50f1-4397-bc59-1a1564b8bb9c",
+        "8a0c2593-9cbc-4f86-a247-beb7aab00d83",
+        "4fb5cc57-dbbc-4cdc-9595-748adff5f414",
+        "0140a36d-95e1-4df5-918c-ca7ccd1fafc9"
+      ],
+      "IncludeApplications": [
+         "All"
+      ]
+    },
+    "ClientAppTypes": [
+      "exchangeActiveSync",
+      "browser",
+      "mobileAppsAndDesktopClients",
+      "other"
+    ],
+    "Devices": {
+      "DeviceFilter": {
+        "Mode": "exclude",
+        "Rule": "device.trustType -eq \"ServerAD\" -or device.trustType -eq \"AzureAD\""
+      }
+    },
+      "IncludePlatforms": [
+        "all"
+      ],
+    "Users": {
+      "ExcludeGroups": [
+        "b5ef6459-bd9c-4e82-ab1d-fd4f646be597",
+        "91a0a862-0b73-492b-9f9c-b62a7d729d52"
+      ],
+      "IncludeGroups": [
+        "f17f5b88-6486-4e86-960f-bce8d2215fee"
+      ]
+    }
+  },
+  "CreatedDateTime": "2024-09-05T02:32:34.8600791Z",
+  "DisplayName": "CA1007-Developers-IdentityProtection-AllExceptDevBox-AnyPlatform-BlockOrHybrid",
+  "GrantControls": {
+    "BuiltInControls": [
+      "block"
+    ],
+    "Operator": "OR"
+  },
+  "Id": "acaf3b39-4660-4eb5-ada6-f761f40f96af",
+  "ModifiedDateTime": "2024-09-05T20:12:22.9596777Z",
+  "State": "enabled"
+}

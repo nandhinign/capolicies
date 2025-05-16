@@ -1,0 +1,46 @@
+{
+  "Conditions": {
+    "Applications": {
+      "ExcludeApplications": [],
+      "IncludeApplications": [
+        "0af06dc6-e4b5-4f28-818e-e78e62d137a5",
+        "0140a36d-95e1-4df5-918c-ca7ccd1fafc9",
+        "a4a365df-50f1-4397-bc59-1a1564b8bb9c",
+        "9cdead84-a844-4324-93f2-b2e6bb768d07",
+        "b5a5e1d1-b53a-4fb6-b097-a0e055949d69",
+        "f9c0e999-22e7-409f-bb5e-956986abdf02",
+        "91291cc9-f37e-47b9-95b4-6a0e75a82bfe",
+        "9ac5421d-0245-4031-b7a5-6411be64fae1",
+        "0140a36d-95e1-4df5-918c-ca7ccd1fafc9",
+        "4fb5cc57-dbbc-4cdc-9595-748adff5f414",
+        "8a0c2593-9cbc-4f86-a247-beb7aab00d83"
+      ]
+    },
+    "ClientAppTypes": [
+      "exchangeActiveSync",
+      "browser",
+      "mobileAppsAndDesktopClients",
+      "other"
+    ],
+    "Users": {
+      "ExcludeGroups": [
+        "b5ef6459-bd9c-4e82-ab1d-fd4f646be597",
+        "a21c2a91-eea7-49cc-b8e5-0741893464b9"
+      ],
+      "IncludeGroups": [
+        "f17f5b88-6486-4e86-960f-bce8d2215fee"
+      ]
+    }
+  },
+  "CreatedDateTime": "2024-09-05T02:15:35.9028689Z",
+  "DisplayName": "CA1005-Developers-AppProtection-VariousApps-AnyPlatform-MFA",
+  "GrantControls": {
+    "BuiltInControls": [
+      "mfa"
+    ],
+    "Operator": "OR"
+  },
+  "ModifiedDateTime": "2024-09-05T19:52:14.3929581Z",
+
+  "State": "enabled"
+}

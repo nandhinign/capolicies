@@ -1,0 +1,48 @@
+{
+  "Conditions": {
+    "Applications": {
+      "IncludeApplications": [
+        "8d653bf0-2694-4b1b-a469-c15e444762e9",
+        "26ecdd15-bd65-4f63-8e54-264f60d2532d",
+        "de3cbb2f-21b0-4dc7-8e79-887e438f7ddc"
+      ]
+    },
+    "ClientAppTypes": [
+            "exchangeActiveSync",
+            "browser",
+            "mobileAppsAndDesktopClients",
+            "other"
+
+    ],
+    "Users": {
+      "ExcludeGroups": [
+        "b5ef6459-bd9c-4e82-ab1d-fd4f646be597",
+        "eb786f4a-f376-4909-bc08-c89af1d396ba",
+        "84e5fb3e-5831-42ab-81de-87d43449144f",
+        "ea85b55b-783e-48a2-9b63-d0626ccd04c9",
+        "ed8de977-2058-4a52-9d80-41a307ef771c"
+      ],
+      "IncludeGroups": [
+        "f1328ec6-ae91-42af-bd7e-50a4ac1a29ae"
+      ]
+    }
+  },
+  "CreatedDateTime": "2025-05-02T02:25:51.3626138Z",
+  "DisplayName": "CA106-Admins-DataProtection-SecApps-AnyPlatform-SessionPolicy",
+  "GrantControls": {
+    "BuiltInControls": [
+      "mfa",
+      "domainJoinedDevice"
+    ],
+    "Operator": "AND"
+  },
+  "ModifiedDateTime": "2025-05-02T20:04:56.1091206Z",
+  "SessionControls": {
+    "SignInFrequency": {
+      "AuthenticationType": "primaryAndSecondaryAuthentication",
+      "FrequencyInterval": "everyTime",
+      "IsEnabled": true
+    }
+  },
+  "State": "enabled"
+}
