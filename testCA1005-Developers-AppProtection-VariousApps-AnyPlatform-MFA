@@ -1,0 +1,27 @@
+{
+  "Conditions": {
+    "Applications": {
+      "ExcludeApplications": [],
+      "IncludeApplications": [
+        "aedb6bd9-3ecd-4fed-9832-8e7f03cc5e76"
+      ]
+    },
+    "ClientAppTypes": [
+      "exchangeActiveSync",
+      "browser",
+      "mobileAppsAndDesktopClients",
+      "other"
+    ]
+  },
+  "CreatedDateTime": "2024-09-05T02:15:35.9028689Z",
+  "DisplayName": "testCA1005-Developers-AppProtection-VariousApps-AnyPlatform-MFA",
+  "GrantControls": {
+    "BuiltInControls": [
+      "mfa"
+    ],
+    "Operator": "OR"
+  },
+  "ModifiedDateTime": "2024-09-05T19:52:14.3929581Z",
+
+  "State": "enabled"
+}
